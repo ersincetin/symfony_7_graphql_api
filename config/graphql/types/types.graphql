@@ -1,0 +1,20 @@
+type User {
+    id: ID
+    status: Boolean
+    sex:String
+    roleId:Int
+    username: String
+    firstname: String
+    secondName: String
+    lastname: String
+    email: String
+    photoUrl:String
+    role:Role
+}
+
+type Role{
+    id: ID
+    status: Boolean
+    name: String
+    permissions: String
+}

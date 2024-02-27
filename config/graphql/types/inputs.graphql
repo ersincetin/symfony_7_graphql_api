@@ -1,0 +1,7 @@
+input inputUser{
+    status:Int!
+}
+
+input inputRole{
+    status:Int!
+}

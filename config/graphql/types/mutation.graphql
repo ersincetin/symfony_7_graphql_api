@@ -1,0 +1,9 @@
+type Mutation{
+    createUser(user : inputUser!):User
+    updateUser(id:ID!,user : inputUser!):User
+    deleteUser(id:ID!):Int
+
+    createRole(role : inputRole!):Role
+    updateRole(id:ID!,role : inputRole!):Role
+    deleteRole(id:ID!):Int
+}
